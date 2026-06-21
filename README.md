@@ -4,6 +4,20 @@ This repository stores personal Codex skills: reusable workflows, checks, and bu
 
 ## Available Skills
 
+### LibTV Layout
+
+Path: `skills/libtv-layout`
+
+`libtv-layout` creates tidy LibTV canvas layouts for automatic Seedance / LibTV video-node workflows. It keeps source assets on the left, official video timelines in the middle from left to right, TEST / OLD / reference nodes below, and outputs on the right.
+
+Use it when you need to:
+
+- Create multiple LibTV素材节点、视频节点、分组或输出说明节点。
+- Keep different scenes, episodes, or node categories separated without overlap.
+- Connect real素材 before writing video prompts.
+- Enforce the workspace rule that LibTV video-node references use `{{Mixed 1}}`, `{{Mixed 2}}`, `{{Mixed 3}}` by actual input order, not by media type.
+- Verify node layout, input connections, prompt existence, and missing `{{Mixed N}}` tags after creation.
+
 ### Handoff Finalizer
 
 Path: `skills/handoff-finalizer`

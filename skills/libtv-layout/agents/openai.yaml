@@ -1,0 +1,7 @@
+interface:
+  display_name: "LibTV Layout"
+  short_description: "Create tidy LibTV canvas node layouts"
+  default_prompt: "Use $libtv-layout to create LibTV canvas nodes with tidy left-to-right layout and verified Mixed input order."
+
+policy:
+  allow_implicit_invocation: true

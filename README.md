@@ -18,6 +18,19 @@ Use it when you need to:
 - Enforce the workspace rule that LibTV video-node references use `{{Mixed 1}}`, `{{Mixed 2}}`, `{{Mixed 3}}` by actual input order, not by media type.
 - Verify node layout, input connections, prompt existence, and missing `{{Mixed N}}` tags after creation.
 
+### Seedance Video Director
+
+Path: `skills/seedance-video-director`
+
+`seedance-video-director` turns scripts, shot ideas, dialogue, spoken-video copy, reference-material notes, or rough concepts into Seedance-ready video prompts.
+
+Use it when you need to:
+
+- Preserve user-provided dialogue, titles, prompt fragments, and exact wording.
+- Bind only real reference materials and keep reference order stable.
+- Write camera, visual style, lighting, sound, dialogue tone, and continuity constraints in a fixed Seedance prompt shape.
+- Review or repair Seedance prompts for reference binding, timecode, shot state, dialogue tone, expression detail, continuity, and constraints.
+
 ### Handoff Finalizer
 
 Path: `skills/handoff-finalizer`

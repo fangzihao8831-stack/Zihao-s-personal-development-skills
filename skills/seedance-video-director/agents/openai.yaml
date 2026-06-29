@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 视频导演"
+  short_description: "通用 Seedance prompt 导演"
+  default_prompt: "根据这个剧本或镜头想法，写一段 Seedance 视频 prompt。"
